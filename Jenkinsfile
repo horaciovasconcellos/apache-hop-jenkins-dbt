@@ -1,20 +1,19 @@
 pipeline {
     agent any
-
     stages {
         stage('Build') {
             steps {
-                echo 'Compilando o projeto...'
+                echo 'Construindo o projeto..... Horacio'
             }
         }
         stage('Test') {
             steps {
-                echo 'Executando testes...'
+                echo 'Rodando os testes...Beleza horacio'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Publicando em produção (simulado)...'
+                echo 'Publicando o projeto...Publicando Horacio'
             }
         }
     }
